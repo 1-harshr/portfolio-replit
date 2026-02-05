@@ -5,6 +5,16 @@ import { FaBriefcase, FaCalendarAlt, FaMapMarkerAlt } from "react-icons/fa";
 
 const experiences = [
   {
+    company: "Sortly",
+    role: "Software Engineer",
+    location: "Remote",
+    period: "Present",
+    color: "bg-green-500/10 text-green-500 border-green-500/20",
+    highlights: [
+      "Currently working as a Software Engineer at Sortly."
+    ]
+  },
+  {
     company: "Ixigo",
     role: "Software Engineer 2 | Android",
     location: "Gurugram",
