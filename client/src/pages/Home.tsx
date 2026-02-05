@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import Hero from "@/components/sections/Hero";
 import Experience from "@/components/sections/Experience";
 import Projects from "@/components/sections/Projects";
+import Blogs from "@/components/sections/Blogs";
 import Skills from "@/components/sections/Skills";
 import Education from "@/components/sections/Education";
 import Contact from "@/components/sections/Contact";
@@ -52,7 +53,7 @@ export default function Home() {
           </div>
           
           <div className="hidden md:flex gap-8">
-            {["Experience", "Projects", "Skills", "Education", "Contact"].map((item) => (
+            {["Experience", "Projects", "Blogs", "Skills", "Education", "Contact"].map((item) => (
               <button
                 key={item}
                 onClick={() => scrollToSection(item.toLowerCase())}
@@ -69,6 +70,7 @@ export default function Home() {
         <Hero />
         <Experience />
         <Projects />
+        <Blogs />
         <Skills />
         <Education />
         <Contact />
